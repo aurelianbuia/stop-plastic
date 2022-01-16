@@ -1,0 +1,79 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/header-1.css" />
+        <link rel="stylesheet" href="css/queries.css" />
+        <title>Final Pitch</title>
+    </head>
+    <body style="overflow: hidden; width: calc(100% - 17px); height: 100vh">
+        <img
+            src="img/pitch-bg.png"
+            alt="hero background"
+            style="right: 0; left: unset; height: 100vh; top: 10vh"
+        />
+
+        <header class="site-header">
+            <div class="wrapper site-header__wrapper">
+                <a href="index.html" class="brand">
+                    <img src="img/logo.png" alt="brand logo" />
+                </a>
+                <nav class="nav">
+                    <button
+                        class="nav__toggle"
+                        aria-expanded="false"
+                        type="button"
+                    >
+                        <img
+                            src="img/bars-solid.svg"
+                            alt="menu link"
+                            class="nav-toggle"
+                        />
+                    </button>
+                    <ul class="nav__wrapper">
+                        <li class="nav__item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="how_it_works.html">How It Works?</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="our_team.html">Our Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pitch.html" class="active-navbar"
+                                >Final Pitch</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="text-wrapper wrapper">
+            <video controls style="border-radius: 25px">
+                <source src="mov_bbb.mp4" type="video/mp4" />
+                <source src="mov_bbb.ogg" type="video/ogg" />
+                Your browser does not support HTML video.
+            </video>
+        </div>
+
+        <footer
+            style="position: relative; margin-top: -50px; padding-bottom: 30px"
+        >
+            <p class="footnote">
+                Project developed during
+                <span style="font-weight: bold"
+                    ><a
+                        href="https://www.instagram.com/phoenix.ro026/"
+                        target="_blank"
+                        style="text-decoration: none; color: #222"
+                        >Phoenix Hackathon</a
+                    ></span
+                >, January 10-13th, 2021
+            </p>
+        </footer>
+    </body>
+</html>

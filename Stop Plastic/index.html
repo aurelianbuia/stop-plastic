@@ -1,0 +1,88 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/reset.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/header-1.css" />
+        <link rel="stylesheet" href="css/queries.css" />
+        <title>Stop Plastic</title>
+    </head>
+    <body
+        style="
+            overflow: hidden;
+            width: calc(100% - 17px);
+            height: calc(100vh - 40px);
+        "
+    >
+        <img src="img/hero-bg.png" alt="hero background" />
+
+        <header class="site-header">
+            <div class="wrapper site-header__wrapper">
+                <a href="index.html" class="brand">
+                    <img src="img/logo.png" alt="brand logo" />
+                </a>
+                <nav class="nav">
+                    <button
+                        class="nav__toggle"
+                        aria-expanded="false"
+                        type="button"
+                    >
+                        <img
+                            src="img/bars-solid.svg"
+                            alt="menu link"
+                            class="nav-toggle"
+                        />
+                    </button>
+                    <ul class="nav__wrapper">
+                        <li class="nav__item">
+                            <a href="index.html" class="active-navbar">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="how_it_works.html">How It Works?</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="our_team.html">Our Team</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="pitch.html">Final Pitch</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="text-wrapper wrapper">
+            <h1>
+                Stop. <br />
+                Plastic.
+            </h1>
+            <h3>
+                Find out how much plastic is around you and <br />
+                watch it disappear in the shortest time.
+            </h3>
+            <button
+                data-hover="Right now!"
+                style="padding: 0.5rem 3.5rem"
+                class="toApp"
+                onclick="linking()"
+            >
+                <div class="toApp">Check it out</div>
+            </button>
+        </div>
+
+        <footer style="position: relative">
+            <p class="footnote">
+                Project developed during
+                <span style="font-weight: bold"
+                    ><a
+                        href="https://www.instagram.com/phoenix.ro026/"
+                        target="_blank"
+                        style="text-decoration: none; color: #222"
+                        >Phoenix Hackathon</a
+                    ></span
+                >, January 10-13th, 2021
+            </p>
+        </footer>
+    </body>
+</html>
